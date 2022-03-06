@@ -4,23 +4,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap.css">
+ 
+    <script src="https://kit.fontawesome.com/5001899231.js" crossorigin="anonymous"></script>
     
 </head>
-<body class=" bg-gradient-to-r from-purple-500 to-pink-500">
-    
-    <div class=" ">
-        <div class="flex flex-col items-center mt-14 md:flex-row md:justify-center md:my-64   ">
-          <img src="./images/cloud-network.png" alt="" class=" w-40 drop-shadow-2xl ">
-           <div class=" flex flex-col">
-             <h1 class=" text-4xl  font-bold drop-shadow-2xl shadow-gray-800">RehanTheCoder.xyz</h1>
-             <h6 class=" text-2xl capitalize text-center md:text-left" style="font-family: 'Redressed', cursive;">Live soon</h6>
-           </div>
-         </div>
+<body >
+   
+    <!--home section-->
+    <section class="container-fluid vh-100 vw-100" style="background-image: url(./images/mountain_landscape16_generated.jpg); background-position:center; background-repeat: no-repeat; background-size: cover;">
+       
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light .bg-transparent" >
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand px-2 py-2 rounded-3 text-white" href="#" style="background-color:10002B;">RK</a>
+              <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarTogglerDemo03">
+                <ul class="navbar-nav  mb-2 mb-lg-0 text-black ">
+                  <li class="nav-item">
+                    <a class="nav-link text-black  " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black " href="#services">services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="#projects">projects</a>
+                  </li>
+                </ul> 
+              </div>
+            </div>
+          </nav>
         
-    </div>
+          <div class=" d-flex flex-column justify-content-center h-75 ">
+              <div>
+              <h1 class="text-center text-capitalize" style="font-family: 'Tangerine', serif; font-size:100px; text-shadow: 4px 4px 4px #aaa; line-height: 54px;">i'm rehan</h1>
+              <h4 class="text-center text-capitalize" style="font-size: 15px; line-height: 8px;font-family: 'Oswald', sans-serif; font-weight: 500;">full stack developer</h4>  
+              </div>           
+          </div>
+        </div>
+    </section>
+    <!--services section-->
+    <section class="vh-100" id="services">
+        <div class="container py-4">
+              <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-6 text-capitalize">
+                      <h1 class=""style="font-family: 'Oswald', sans-serif;font-weight:bold;">service i offer</h1>
+                      <p style="font-family: 'Oswald', sans-serif; font-size: 14px;">we help to grow your business.create web user interface and backend database</p>
+                       <div>
+                           <hr>
+                           <div class="d-flex flex-row">
+                           <h5 class="me-1" style="font-family: 'Oswald', sans-serif;font-weight:bold;">01: </h5>
+                           <h5 style="font-family: 'Oswald', sans-serif;font-weight:bold;">frontend development</h5>
+                           </div>
+                           <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></button>                              
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="font-family: 'Oswald', sans-serif;">
+                                  <strong>front-end web development</strong> is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div>
+                        <hr>
+                        <div class="d-flex flex-row">
+                        <h5 class="me-1" style="font-family: 'Oswald', sans-serif;font-weight:bold;">02: </h5>
+                        <h5 style="font-family: 'Oswald', sans-serif;font-weight:bold;">backend development</h5>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                         <div class="accordion-item">
+                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></button>                              
+                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                             <div class="accordion-body" style="font-family: 'Oswald', sans-serif;">
+                               <strong>A back-end developer</strong> is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system.
+                             </div>
+                           </div>
+                         </div>
+                     </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12  col-md-12 col-lg-6 ">
+                    <img src="./images/3d-flame-nice-to-meet-you.png" alt=""  class=" " style=" width: 100%; height: auto;">
+                  </div>
+              </div>
+
+        </div>
+         
+    </section>
+   
+    <!--project section-->
+    <section >
+      
+    </section>
+    <!--Discus projects-->
+    <section >
+
+    </section>
+    <script src="./bootstrap.js"></script>
 </body>
 </html>
